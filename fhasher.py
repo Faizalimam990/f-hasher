@@ -8,7 +8,7 @@ print(text)
 print("______CREATED BY FAIZAL IMAM______")
 
 while True:
-    text1=input(colored("Press D for Decryption or press S for saving in text file And E for exit:",'green'))
+    text1=input(colored("Press E for Encryption or press S for saving in text file And E for exit:",'green'))
     if text1=="d" or text=="D":
         h=hashlib.md5()
         enc=input(colored("input Your text:",'blue'))
